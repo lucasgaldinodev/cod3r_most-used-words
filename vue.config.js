@@ -6,6 +6,7 @@ module.exports = defineConfig({
     vuetify: {
 			// https://github.com/vuetifyjs/vuetify-loader/tree/next/packages/vuetify-loader
 		},
+    // Precisa adicionar esse trecho nas versões mais novas
     electronBuilder: {
       nodeIntegration: true
     },

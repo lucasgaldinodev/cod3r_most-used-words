@@ -3,7 +3,7 @@
     <v-app-bar app color="primary" dark>
       <v-toolbar-title>Most Used Words</v-toolbar-title>
     </v-app-bar>
-    <v-content class="content mt-15" >
+    <v-content class="content mt-15" > <!-- precisou adiconar isso aqui pro conteúdo ser mostrado, pois sem isso o conteúdo fica abaixo da AppBar --> 
       <Home_Vue />
     </v-content>
   </v-app>
